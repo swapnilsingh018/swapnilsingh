@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Swapnil K Singh</title>
+		<meta charset="utf-8" />
+		<script src="https://kit.fontawesome.com/d6651679dc.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!--Intro-->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Swapnil K Singh</h1>
+						<p>A Showcase of my Portfolio</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Résumé</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/swapnilsingh018" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/swapnilsingh018/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/swapnilsingh018/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.linkedin.com/in/swapnilsingh018/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.researchgate.net/profile/Swapnil-Singh-23" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+							<li><a href="https://github.com/swapnilsingh018" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<!DOCTYPE html>
+									<html>
+									<head>
+										<meta charset="utf-8">
+										<title>Live Time and Date Display</title>
+										<style>
+											body {
+												background-color: #f1f1f1;
+												font-family: Arial, sans-serif;
+											}
+											.clock {
+												font-size: 80px;
+												font-weight: bold;
+												color: #444;
+												text-align: center;
+												margin-top: 100px;
+											}
+											.date {
+												font-size: 30px;
+												color: #666;
+												text-align: center;
+												margin-top: 20px;
+											}
+										</style>
+									</head>
+									<body>
+										<div class="clock">
+											<span id="hours"></span>:
+											<span id="minutes"></span>:
+											<span id="seconds"></span>
+										</div>
+										<div class="date">
+											<span id="day"></span>, 
+											<span id="month"></span> 
+											<span id="date"></span>, 
+											<span id="year"></span>
+										</div>
+										<script>
+											function updateTime() {
+												var today = new Date();
+												var hours = today.getHours();
+												var minutes = today.getMinutes();
+												var seconds = today.getSeconds();
+												var day = today.toLocaleDateString('en-US', { weekday: 'long' });
+												var month = today.toLocaleDateString('en-US', { month: 'long' });
+												var date = today.getDate();
+												var year = today.getFullYear();
+									
+												hours = checkTime(hours);
+												minutes = checkTime(minutes);
+												seconds = checkTime(seconds);
+									
+												document.getElementById('hours').innerHTML = hours;
+												document.getElementById('minutes').innerHTML = minutes;
+												document.getElementById('seconds').innerHTML = seconds;
+												document.getElementById('day').innerHTML = day;
+												document.getElementById('month').innerHTML = month;
+												document.getElementById('date').innerHTML = date;
+												document.getElementById('year').innerHTML = year;
+											}
+									
+											function checkTime(time) {
+												if (time < 10) {
+													time = "0" + time;
+												}
+												return time;
+											}
+									
+											setInterval(updateTime, 1000); // update time every second
+										</script>
+									</body>
+									</html>
+															   
+									<h2><a href="#">Latest<br />
+									Massive headline</a></h2>
+									<p>About me</p>
+								</header>
+								<a href="#" class="image main"><img src="images/Intro.png" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://www.linkedin.com/posts/swapnilsingh018_in-my-free-time-at-college-i-am-working-activity-7022930821078556672-vTCr?utm_source=share&utm_medium=member_desktop" class="button large">Full Story</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">31st Dec, 2022</span>
+										<h2><a href="#">Scientific Conferences<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/6.png" alt="" /></a>
+									<p>The year 2022 was very busy for me; I participated in more than 20 scientific conferences that were organised by world-renowned organisations and universities like CERN, Cambridge University, UNESCO, the Royal Swedish Academy, the European Space Agency, and the International Astronomical Union. In these conferences, I presented talks and papers and provided my perspective on the ongoing research.</p>
+									<ul class="actions special">
+										<li><a href="https://www.linkedin.com/posts/swapnilsingh018_post-46-list-of-scientific-conferences-activity-7016367629514784769-wfKq?utm_source=share&utm_medium=member_desktop" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">31st Dec, 2022</span>
+										<h2><a href="#">Scientific Conferences<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/7.png" alt="" /></a>
+									<p>In almost every conference, I was the only undergraduate student, and I was the youngest researcher among all.<br>
+
+										These conferences were in the field of astrophysics and covered topics such as dark matter, gravitational physics, string theory, black holes, and particle physics. <br> These conferences provided me with the opportunity to introduce myself to eminent scientists and Researcher across the world.</p>
+									<ul class="actions special">
+										<li><a href="https://www.linkedin.com/posts/swapnilsingh018_post-46-list-of-scientific-conferences-activity-7016367629514784769-wfKq?utm_source=share&utm_medium=member_desktop" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">31st Dec, 2022</span>
+										<h2><a href="#">My Affiliations and Memberships<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/9.png" alt="" /></a>
+									<p>Greetings Everyone, <br>
+										Last year, I joined many research organizations, groups, and scientific societies. Few of these are by volunteering, but many prestigious societies have a rigorous selection process that includes nomination and peer-reviewed selection by the core committee. In many of these groups, I am the youngest member and the only undergraduate researcher from India.</p>
+									<ul class="actions special">
+										<li><a href="https://www.linkedin.com/posts/swapnilsingh018_post-66-list-of-scientific-societies-activity-7022875417388736512-JmwS?utm_source=share&utm_medium=member_desktop" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">31st Dec, 2022</span>
+										<h2><a href="#">My Affiliations and Memberships<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/10.png" alt="" /></a>
+									<p>Some prestigious societies include Sigma Xi, The Scientific Research Honor Society, ELGRA, the European Space Agency, Space Satellite Professional International, The Royal Aeronautical Society, The Royal Astronomical Society of New Zealand, The Royal Astronomical Society of Ireland, the Space Exploration Project Group, and The Royal Aero Working Group.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://www.linkedin.com/posts/swapnilsingh018_post-66-list-of-scientific-societies-activity-7022875417388736512-JmwS?utm_source=share&utm_medium=member_desktop" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">31st Dec, 2022</span>
+										<h2><a href="#">Research Topics & Papers (In process)<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/3.png" alt="" /></a>
+									<p>Last year I wrote 10 papers, and a few of them are underway. All of these were reviews of research in the field of astronomy. I was the only author of my papers, and there were no guides or mentors. Three of them are published.
+ 
+										Out of curiosity, I have also written some articles on science topics which includes Black Holes, General Relativity and String Theory. All these articles are published and have made a record of most liked & viewed articles in the Journals/Blogs.</p>
+									<ul class="actions special">
+										<li><a href="https://www.linkedin.com/posts/swapnilsingh018_post-36-list-of-research-paperstopics-activity-7015997116158291968-QBmj?utm_source=share&utm_medium=member_desktop" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date"> 31st Dec, 2022 </span>
+										<h2><a href="#">Research Papers & Articles Publications<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/4.png" alt="" /></a>
+									<p>One major benefit of writing a research paper is the opportunity to dive deep into a specific topic or area of interest. The process of researching and writing a paper requires you to become an expert on the subject, delving into the latest research and theories and analyzing data and evidence. This not only helps you to expand your own knowledge, but it also helps you to develop critical thinking skills and the ability to communicate complex ideas clearly and effectively.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://www.linkedin.com/posts/swapnilsingh018_post-36-list-of-research-paperstopics-activity-7015997116158291968-QBmj?utm_source=share&utm_medium=member_desktop" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form action="https://formcarry.com/s/eUnE0Qjenu" method="POST" accept-charset="UTF-8">
+								<div class="fields">
+								  <div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								  </div>
+								  <div class="field">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" />
+								  </div>
+								  <div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3"></textarea>
+								  </div>
+								</div>
+								<ul class="actions">
+								  <li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Shri Dwareekadheesh, Khushalnagar Sector A<br />
+									Shivpur, Varanasi</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(96969)*****</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">swapnil.me21@bmsce.ac.in</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://twitter.com/swapnilsingh018" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							        <li><a href="https://www.facebook.com/swapnilsingh018/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							        <li><a href="https://www.instagram.com/swapnilsingh018/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							        <li><a href="https://www.linkedin.com/in/swapnilsingh018/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						        	<li><a href="https://www.researchgate.net/profile/Swapnil-Singh-23" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+							        <li><a href="https://github.com/swapnilsingh018" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Swapnil Singh</li><li>Design: <a href="">2023 India</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
